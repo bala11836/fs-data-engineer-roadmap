@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FS Data Engineer — Palantir | Complete Learning Roadmap</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Complete 35-day learning roadmap for FS Data Engineer (Palantir) — Azure, SQL, Python, Big Data, AI/ML">
+</head>
+<body>
+
+<!-- ============================================
+     HAMBURGER MENU (Mobile)
+     ============================================ -->
+<button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+<div class="sidebar-overlay"></div>
+
+<!-- ============================================
+     SIDEBAR
+     ============================================ -->
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-logo">FS Data Engineer</div>
+    <div class="sidebar-subtitle">Palantir · Accenture</div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-section-label">Dashboard</div>
+    <a href="#overview" class="nav-link active"><span class="nav-icon">📊</span> Overview</a>
+
+    <div class="nav-section-label">Modules</div>
+    <a href="#week1-azure" class="nav-link"><span class="nav-icon">🟦</span> Week 1: Azure<span class="nav-progress"></span></a>
+    <a href="#week2-sql" class="nav-link"><span class="nav-icon">🟩</span> Week 2: SQL<span class="nav-progress"></span></a>
+    <a href="#week23-python" class="nav-link"><span class="nav-icon">🟨</span> Week 2-3: Python<span class="nav-progress"></span></a>
+    <a href="#week4-bigdata" class="nav-link"><span class="nav-icon">🟥</span> Week 4: Big Data + AI/ML<span class="nav-progress"></span></a>
+
+    <div class="nav-section-label">Preparation</div>
+    <a href="#exam-prep" class="nav-link"><span class="nav-icon">🟪</span> Exam Prep<span class="nav-progress"></span></a>
+    <a href="#cheat-sheets" class="nav-link"><span class="nav-icon">📋</span> Cheat Sheets</a>
+    <a href="#golden-rules" class="nav-link"><span class="nav-icon">💡</span> Golden Rules</a>
+  </nav>
+</aside>
+
+<!-- ============================================
+     MAIN CONTENT
+     ============================================ -->
+<main class="main-content">
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="hero" id="overview">
+    <div class="hero-badge">📅 Complete Learning Roadmap</div>
+    <h1 class="hero-title">FS Data Engineer — Palantir</h1>
+    <p class="hero-subtitle">Complete Learning Roadmap | <span>Accenture</span></p>
+
+    <div class="stat-cards fade-in">
+      <div class="stat-card">
+        <div class="stat-icon">📆</div>
+        <div class="stat-value blue">35</div>
+        <div class="stat-label">Total Days</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🎓</div>
+        <div class="stat-value purple">18</div>
+        <div class="stat-label">Training Days</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🎯</div>
+        <div class="stat-value pink">Jul 30</div>
+        <div class="stat-label">Exam Date</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">⏰</div>
+        <div class="stat-value cyan">10–12 PM</div>
+        <div class="stat-label">Training Hours</div>
+      </div>
+    </div>
+
+    <div class="overall-progress fade-in">
+      <div class="progress-header">
+        <div>
+          <div class="progress-title">Overall Progress</div>
+          <div class="progress-count" id="overall-progress-count">0 of 0 tasks completed</div>
+        </div>
+        <div class="progress-percentage" id="overall-progress-pct">0%</div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="overall-progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       OVERVIEW — Schedule Table + Timetable
+       ========================================== -->
+  <section class="content-section" id="schedule">
+    <div class="section-header fade-in">
+      <div class="section-icon azure">📊</div>
+      <div>
+        <h2 class="section-title">Complete Training Schedule</h2>
+        <p class="section-subtitle">18 training sessions over 35 days</p>
+      </div>
+    </div>
+
+    <div class="fade-in">
+      <table class="styled-table">
+        <thead>
+          <tr><th>Day#</th><th>Date</th><th>Day</th><th>Module</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>23-Jun</td><td>Mon</td><td>Azure Cloud Fundamentals</td><td>✅ Done</td></tr>
+          <tr><td>2</td><td>24-Jun</td><td>Tue</td><td>Azure Cloud Fundamentals</td><td>✅ Done</td></tr>
+          <tr><td>3</td><td>25-Jun</td><td>Wed</td><td>Azure Cloud Fundamentals</td><td>🔄 Today</td></tr>
+          <tr><td>4</td><td>26-Jun</td><td>Thu</td><td>Azure Cloud Fundamentals</td><td>⬜</td></tr>
+          <tr><td>5</td><td>29-Jun</td><td>Mon</td><td>Azure Cloud Fundamentals</td><td>⬜</td></tr>
+          <tr><td>6</td><td>30-Jun</td><td>Tue</td><td>SQL</td><td>⬜</td></tr>
+          <tr><td>7</td><td>1-Jul</td><td>Wed</td><td>SQL</td><td>⬜</td></tr>
+          <tr><td>8</td><td>2-Jul</td><td>Thu</td><td>SQL</td><td>⬜</td></tr>
+          <tr><td>9</td><td>3-Jul</td><td>Fri</td><td>Python for Data Engineers</td><td>⬜</td></tr>
+          <tr><td>10</td><td>6-Jul</td><td>Mon</td><td>Python for Data Engineers</td><td>⬜</td></tr>
+          <tr><td>11</td><td>7-Jul</td><td>Tue</td><td>Python for Data Engineers</td><td>⬜</td></tr>
+          <tr><td>12</td><td>8-Jul</td><td>Wed</td><td>Python for Data Engineers</td><td>⬜</td></tr>
+          <tr><td>13</td><td>9-Jul</td><td>Thu</td><td>Python for Data Engineers</td><td>⬜</td></tr>
+          <tr><td>14</td><td>10-Jul</td><td>Fri</td><td>Python for Data Engineers</td><td>⬜</td></tr>
+          <tr><td>15</td><td>13-Jul</td><td>Mon</td><td>Python for Data Engineers</td><td>⬜</td></tr>
+          <tr><td>16</td><td>14-Jul</td><td>Tue</td><td>Big Data</td><td>⬜</td></tr>
+          <tr><td>17</td><td>15-Jul</td><td>Wed</td><td>Big Data</td><td>⬜</td></tr>
+          <tr><td>18</td><td>16-Jul</td><td>Thu</td><td>AI, ML, DL, GenAI, RL, Agentic AI</td><td>⬜</td></tr>
+          <tr><td>—</td><td>17-Jul → 30-Jul</td><td>—</td><td><strong>Self Revision + Exam Prep</strong></td><td>⬜</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Daily Timetable -->
+    <div class="section-header fade-in" style="margin-top:32px;">
+      <div class="section-icon azure">⏰</div>
+      <div>
+        <h2 class="section-title">Daily Timetable Template</h2>
+        <p class="section-subtitle">Recommended daily routine</p>
+      </div>
+    </div>
+    <div class="fade-in">
+      <table class="styled-table">
+        <thead><tr><th>Time</th><th>Activity</th></tr></thead>
+        <tbody>
+          <tr><td><strong>7:00 – 8:00 AM</strong></td><td>☀️ Pre-study: Read topics for today's training</td></tr>
+          <tr><td><strong>8:00 – 9:30 AM</strong></td><td>📝 Practice previous day's topics (coding/exercises)</td></tr>
+          <tr><td><strong>9:30 – 10:00 AM</strong></td><td>☕ Break, prepare notebook for training</td></tr>
+          <tr><td><strong>10:00 – 12:00 PM</strong></td><td>🎓 <strong>ACCENTURE TRAINING SESSION (SME Connect)</strong></td></tr>
+          <tr><td><strong>12:00 – 1:00 PM</strong></td><td>🍽️ Lunch break</td></tr>
+          <tr><td><strong>1:00 – 3:00 PM</strong></td><td>💻 Hands-on practice: Code what you learned</td></tr>
+          <tr><td><strong>3:00 – 3:15 PM</strong></td><td>☕ Short break</td></tr>
+          <tr><td><strong>3:15 – 5:00 PM</strong></td><td>📚 Deep study: YouTube tutorials + docs</td></tr>
+          <tr><td><strong>5:00 – 5:30 PM</strong></td><td>🏃 Physical break</td></tr>
+          <tr><td><strong>5:30 – 7:00 PM</strong></td><td>📝 Prepare for TOMORROW's training topics</td></tr>
+          <tr><td><strong>7:00 PM onwards</strong></td><td>🌙 Light revision, make notes, rest</td></tr>
+        </tbody>
+      </table>
+      <div class="alert-block tip">
+        <div class="alert-label">💡 Tip</div>
+        <strong>On weekends (Sat-Sun)</strong>: Spend 4-6 hours revising the entire week's topics + solving practice problems
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       WEEK 1: AZURE (Days 1-5)
+       ========================================== -->
+  <section class="content-section" id="week1-azure" data-week="week1-azure">
+    <div class="section-header fade-in">
+      <div class="section-icon azure">🟦</div>
+      <div>
+        <h2 class="section-title">Week 1: Azure Cloud Fundamentals</h2>
+        <p class="section-subtitle">June 23 – June 29 · Days 1-5</p>
+      </div>
+    </div>
+    <div class="week-progress fade-in">
+      <div class="progress-header">
+        <span class="progress-title">Week 1 Progress</span>
+        <span class="progress-count" id="week-week1-azure-count">0/0</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="week-week1-azure-fill" style="width:0%"></div></div>
+    </div>
+
+    <!-- DAY 1 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 1</span>
+        <div class="day-info">
+          <div class="day-title">Azure Cloud Fundamentals — Session 1</div>
+          <div class="day-date">June 23 (Mon)</div>
+        </div>
+        <span class="day-status done">✅ Done</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <!-- 1.1 Cloud Computing -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> 1.1 What is Cloud Computing (Must Know)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-1"><span class="checklist-text"><strong>Definition</strong>: Using computers, storage, and services over the internet instead of owning physical hardware</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-2"><span class="checklist-text"><strong>Analogy</strong>: <em class="analogy">Cloud = renting electricity from the grid vs running your own generator</em></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-3"><span class="checklist-text"><strong>Before Cloud (On-Premise)</strong>: Companies bought their own servers, kept them in server rooms, hired people to maintain them — expensive, slow to scale, hardware failures</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-4"><span class="checklist-text"><strong>With Cloud</strong>: Rent servers from Microsoft/Amazon/Google, pay only for what you use, scale up/down instantly, provider handles maintenance</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-5"><span class="checklist-text"><strong>5 Key Benefits of Cloud</strong>: 1) Cost Savings — pay-as-you-go, 2) Scalability — add resources in minutes, 3) Reliability — data backed up across locations, 4) Speed — deploy in minutes, 5) Global Reach — data centers worldwide</span></div>
+          </div>
+
+          <!-- 1.2 Cloud Service Models -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> 1.2 Cloud Service Models (Must Know)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-6"><span class="checklist-text"><strong>IaaS (Infrastructure as a Service)</strong> — You rent raw infrastructure. Get VMs, storage, networking. You manage OS, apps, data. Example: Azure VMs, AWS EC2. <em class="analogy">Analogy: Renting an empty house — you bring furniture</em></span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Diagram</span><button class="code-copy">Copy</button></div><pre>Provider gives you: [Server Hardware] [Network] [Storage]
+You manage:         [OS] [Applications] [Data] [Security]</pre></div>
+
+            <div class="checklist-item"><input type="checkbox" data-id="d1-7"><span class="checklist-text"><strong>PaaS (Platform as a Service)</strong> — You get a platform to build on. Get runtime, dev tools, database. You manage code & data. Example: Azure App Service, Heroku. <em class="analogy">Analogy: Renting a furnished apartment — just bring your clothes</em></span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Diagram</span><button class="code-copy">Copy</button></div><pre>Provider gives you: [Server] [OS] [Runtime] [Database]
+You manage:         [Your Application Code] [Data]</pre></div>
+
+            <div class="checklist-item"><input type="checkbox" data-id="d1-8"><span class="checklist-text"><strong>SaaS (Software as a Service)</strong> — You just use ready software. Provider manages everything. Example: Microsoft 365, Gmail, Salesforce, Zoom. <em class="analogy">Analogy: Staying in a hotel — everything is provided</em></span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Diagram</span><button class="code-copy">Copy</button></div><pre>Provider gives you: [Everything — complete working software]
+You manage:         [Your data and settings]</pre></div>
+
+            <div class="checklist-item"><input type="checkbox" data-id="d1-9"><span class="checklist-text"><strong>Quick Comparison Table</strong> — memorize this:</span></div>
+            <table class="styled-table">
+              <thead><tr><th>Feature</th><th>IaaS</th><th>PaaS</th><th>SaaS</th></tr></thead>
+              <tbody>
+                <tr><td>You manage</td><td>OS + Apps</td><td>Apps only</td><td>Nothing (just use)</td></tr>
+                <tr><td>Control</td><td>Most</td><td>Some</td><td>Least</td></tr>
+                <tr><td>Flexibility</td><td>Most</td><td>Medium</td><td>Least</td></tr>
+                <tr><td>Ease of use</td><td>Hard</td><td>Medium</td><td>Easy</td></tr>
+                <tr><td>Example</td><td>Azure VMs</td><td>Azure App Service</td><td>Microsoft 365</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- 1.3 Cloud Deployment Models -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> 1.3 Cloud Deployment Models (Must Know)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-10"><span class="checklist-text"><strong>Public Cloud</strong> — Open to everyone, shared infrastructure. Azure, AWS, Google Cloud. Cheapest, most scalable, less control over security.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-11"><span class="checklist-text"><strong>Private Cloud</strong> — Dedicated to one organization. More security, more control, more expensive.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-12"><span class="checklist-text"><strong>Hybrid Cloud</strong> — Combination of public + private. Keep sensitive data on private, use public for scalable workloads. <strong class="fire">🔥 Most common in Financial Services</strong> (banks use this!)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-13"><span class="checklist-text"><strong>Multi-Cloud</strong> — Using multiple public clouds (Azure + AWS)</span></div>
+          </div>
+
+          <!-- 1.4 What is Azure -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> 1.4 What is Microsoft Azure (Must Know)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-14"><span class="checklist-text"><strong>Definition</strong>: Microsoft's cloud computing platform with <strong>200+ services</strong> and <strong>60+ regions</strong> worldwide</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-15"><span class="checklist-text"><strong>Why Azure for your role</strong>: Accenture is a Microsoft partner, many FS clients use Azure, Palantir Foundry often deploys on Azure, Azure data services connect to Foundry</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-16"><span class="checklist-text"><strong>Azure Portal</strong>: portal.azure.com — web interface to manage everything</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-17"><span class="checklist-text"><strong>Azure Account Structure</strong>:</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Structure</span><button class="code-copy">Copy</button></div><pre>Azure Account (your login)
+  └── Subscription (billing boundary)
+      └── Resource Group (container for related resources)
+          └── Resources (VMs, databases, storage, etc.)</pre></div>
+          </div>
+
+          <!-- 1.5 Azure Global Infrastructure -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🌐</span> 1.5 Azure Global Infrastructure</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-18"><span class="checklist-text"><strong>Regions</strong>: Physical locations with data centers. India has 3: Central India (Pune), South India (Chennai), West India (Mumbai)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-19"><span class="checklist-text"><strong>Availability Zones</strong>: Separate buildings within a region for disaster protection. Minimum 3 zones per region. If one goes down, others keep running.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-20"><span class="checklist-text"><strong>Region Pairs</strong>: Each region paired with another 300+ km away. If entire region fails, paired region takes over. Example: Central India ↔ South India</span></div>
+          </div>
+
+          <!-- Day 1 Revision Checklist -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Day 1 Revision Checklist</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-r1"><span class="checklist-text">Can I explain cloud computing in simple words?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-r2"><span class="checklist-text">Can I differentiate IaaS vs PaaS vs SaaS with examples?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-r3"><span class="checklist-text">Can I explain Public vs Private vs Hybrid cloud?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-r4"><span class="checklist-text">Can I explain what Azure is and why companies use it?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d1-r5"><span class="checklist-text">Can I explain Regions, Availability Zones, and Region Pairs?</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 2 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 2</span>
+        <div class="day-info">
+          <div class="day-title">Azure Cloud Fundamentals — Session 2</div>
+          <div class="day-date">June 24 (Tue)</div>
+        </div>
+        <span class="day-status done">✅ Done</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <!-- 2.1 Azure Compute -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> 2.1 Azure Compute Services (Must Know)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-1"><span class="checklist-text"><strong>Azure Virtual Machines (VMs)</strong> — A computer in the cloud (choose OS, CPU, RAM, storage). Need full control over OS. Pay per hour/minute.</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Example</span><button class="code-copy">Copy</button></div><pre>Example: You need a Linux server to run a data processing script
+→ Create a VM with Ubuntu OS, 16 GB RAM, 4 CPUs
+→ Install Python, PySpark on it
+→ Run your script
+→ Delete VM when done (stop paying)</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-2"><span class="checklist-text"><strong>Azure App Service</strong> — PaaS for hosting web apps, APIs. No need to manage VMs or OS. Supports Python, Java, .NET, Node.js.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-3"><span class="checklist-text"><strong>Azure Functions (Serverless)</strong> — Run small pieces of code without managing servers. Pay only when code runs.</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Example</span><button class="code-copy">Copy</button></div><pre>File uploaded to Blob Storage
+  → Triggers Azure Function
+  → Function reads file, processes it
+  → Writes output to database
+  → You pay only for the 5 seconds it ran</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-4"><span class="checklist-text"><strong>Azure Container Instances (ACI) & AKS</strong> — ACI: run single containers quickly. AKS: manage many containers at scale.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-5"><span class="checklist-text"><strong>Azure Virtual Desktop</strong> — A Windows desktop in the cloud for remote work.</span></div>
+          </div>
+
+          <!-- 2.2 Networking -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">💡</span> 2.2 Azure Networking Services</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-6"><span class="checklist-text"><strong>Azure Virtual Network (VNet)</strong> — Your own private network in Azure. Resources in same VNet can communicate.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-7"><span class="checklist-text"><strong>Subnets</strong> — Smaller sections within a VNet to organize and isolate resources.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-8"><span class="checklist-text"><strong>Network Security Groups (NSG)</strong> — Firewall rules: control which traffic is allowed IN and OUT.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-9"><span class="checklist-text"><strong>Azure VPN Gateway</strong> — Secure tunnel between on-premise network and Azure.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-10"><span class="checklist-text"><strong>Azure ExpressRoute</strong> — Private, dedicated connection to Azure (not over public internet). <strong class="fire">🔥 Used by banks and financial institutions!</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-11"><span class="checklist-text"><strong>Azure Load Balancer</strong> — Distributes incoming traffic across multiple servers.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-12"><span class="checklist-text"><strong>Azure DNS</strong> — Translates domain names to IP addresses.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-13"><span class="checklist-text"><strong>Azure CDN</strong> — Caches content at edge locations close to users for faster loading.</span></div>
+          </div>
+
+          <!-- 2.3 Storage -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐🔥</span> 2.3 Azure Storage Services (Critical)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-14"><span class="checklist-text"><strong>Azure Storage Account</strong> — Container for all storage services. Globally unique name. Redundancy options: LRS (3 copies same DC), ZRS (3 copies across zones), GRS (6 copies across 2 regions), RA-GRS (GRS + read from secondary)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-15"><span class="checklist-text"><strong>Azure Blob Storage</strong> — Store any file type (Binary Large OBject). Access Tiers: Hot, Cool, Cold, Archive.</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Structure</span><button class="code-copy">Copy</button></div><pre>Storage Account
+  └── Container (like a folder)
+      └── Blobs (your files)
+          ├── data.csv
+          ├── photo.jpg
+          └── backup.sql</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-16"><span class="checklist-text"><strong class="critical">🔥🔥🔥 Azure Data Lake Storage Gen2 (ADLS Gen2)</strong> — Blob Storage + Hierarchical Namespace = perfect for big data. <strong>Palantir Foundry stores its data on ADLS Gen2!</strong></span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Structure</span><button class="code-copy">Copy</button></div><pre>ADLS Gen2 account
+  └── filesystem (container)
+      └── folder1/
+          └── subfolder/
+              ├── data_2026_01.parquet
+              ├── data_2026_02.parquet
+              └── data_2026_03.parquet</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-17"><span class="checklist-text"><strong>Azure Files</strong> — Managed file shares (SMB/NFS protocol), replace on-premise file servers.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-18"><span class="checklist-text"><strong>Azure Queue Storage</strong> — Store messages in a queue for processing later.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-19"><span class="checklist-text"><strong>Azure Table Storage</strong> — NoSQL key-value store for simple structured data.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-20"><span class="checklist-text"><strong>Azure Disk Storage</strong> — Disks for VMs. Types: Ultra, Premium SSD, Standard SSD, Standard HDD.</span></div>
+          </div>
+
+          <!-- 2.4 Database Services -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> 2.4 Azure Database Services</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-21"><span class="checklist-text"><strong>Azure SQL Database</strong> — Managed relational database (SQL Server in cloud). PaaS — Microsoft handles backups, updates, patches.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-22"><span class="checklist-text"><strong>Azure Cosmos DB</strong> — Globally distributed NoSQL database. Supports Document, key-value, graph. APIs: SQL, MongoDB, Cassandra, Gremlin, Table.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-23"><span class="checklist-text"><strong>Azure Database for MySQL / PostgreSQL</strong> — Managed open-source databases.</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-24"><span class="checklist-text"><strong>Azure Synapse Analytics</strong> — Data warehouse + analytics in one platform. <strong class="fire">🔥 Important for Data Engineering!</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-25"><span class="checklist-text"><strong>Azure Cache for Redis</strong> — In-memory cache for fast data access.</span></div>
+          </div>
+
+          <!-- Day 2 Revision -->
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Day 2 Revision Checklist</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-r1"><span class="checklist-text">Can I name and explain 5 Azure Compute services?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-r2"><span class="checklist-text">Can I explain what a VNet, Subnet, and NSG are?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-r3"><span class="checklist-text">Can I explain Blob Storage tiers (Hot/Cool/Cold/Archive)?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-r4"><span class="checklist-text">Can I explain why ADLS Gen2 is critical for data engineering?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-r5"><span class="checklist-text">Can I differentiate Azure SQL DB vs Cosmos DB vs Synapse?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-r6"><span class="checklist-text">Can I explain storage redundancy options (LRS/ZRS/GRS)?</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-r7"><span class="checklist-text">Can I draw a diagram of Azure Storage Account structure?</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🎥</span> YouTube Videos for Revision</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-v1"><span class="checklist-text">"Azure Storage Explained" — Adam Marczak (15 mins)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-v2"><span class="checklist-text">"Azure Networking Basics" — John Savill (20 mins)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d2-v3"><span class="checklist-text">"Azure Compute Services Overview" — Microsoft Learn (10 mins)</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 3 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 3</span>
+        <div class="day-info">
+          <div class="day-title">Azure Cloud Fundamentals — Session 3</div>
+          <div class="day-date">June 25 (Wed)</div>
+        </div>
+        <span class="day-status today">🔄 Today</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training (7-10 AM)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-1"><span class="checklist-text">Revise what was covered on June 23 & 24</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-2"><span class="checklist-text">Pre-read: Azure Storage Services — Blob Storage, ADLS, Storage Accounts, Hot vs Cool vs Archive tiers</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-3"><span class="checklist-text">Pre-read: Azure Databases — Azure SQL Database, Cosmos DB, Azure Synapse Analytics</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🎓</span> During Training (10 AM - 12 PM)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-4"><span class="checklist-text">Take detailed notes</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-5"><span class="checklist-text">Write down any terms you don't understand</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-6"><span class="checklist-text">Ask questions if confused</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☁️</span> What is Cloud Computing (30 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-7"><span class="checklist-text">Cloud = using someone else's computers over the internet</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-8"><span class="checklist-text">On-premise vs Cloud</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-9"><span class="checklist-text">Benefits: scalability, pay-as-you-go, no hardware maintenance</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-10"><span class="checklist-text">IaaS vs PaaS vs SaaS — IaaS (VMs), PaaS (App Service), SaaS (Microsoft 365)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-11"><span class="checklist-text">Public Cloud vs Private Cloud vs Hybrid Cloud</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔧</span> Core Azure Services (1 hour)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-12"><span class="checklist-text"><strong>Azure Regions & Availability Zones</strong>: data centers around the world</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-13"><span class="checklist-text"><strong>Resource Groups</strong>: containers to organize your Azure resources</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-14"><span class="checklist-text"><strong>Azure Portal</strong>: the web interface to manage everything</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-15"><span class="checklist-text"><strong>Azure CLI / PowerShell</strong>: command-line tools</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-16"><span class="checklist-text"><strong>Azure Subscriptions</strong>: billing boundary</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">💻</span> Azure Compute Services (30 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-17"><span class="checklist-text"><strong>Virtual Machines (VMs)</strong>: computers in the cloud</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-18"><span class="checklist-text"><strong>Azure App Service</strong>: run web apps</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-19"><span class="checklist-text"><strong>Azure Functions</strong>: serverless (run code without managing servers)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-20"><span class="checklist-text"><strong>Azure Kubernetes Service (AKS)</strong>: container orchestration</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> Azure Storage Services (45 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-21"><span class="checklist-text"><strong>Blob Storage</strong>: block blobs, append blobs, page blobs, containers, access tiers (Hot/Cool/Archive)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-22"><span class="checklist-text"><strong class="critical">🔥 ADLS Gen2 — CRITICAL FOR YOUR ROLE</strong>: Hierarchical namespace, big data analytics, Palantir Foundry connects here!</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-23"><span class="checklist-text"><strong>Azure SQL Database</strong>: relational database in the cloud</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-24"><span class="checklist-text"><strong>Azure Cosmos DB</strong>: NoSQL globally distributed database</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-25"><span class="checklist-text"><strong>Table Storage</strong>: key-value storage</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🌐</span> Azure Networking Basics (30 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-26"><span class="checklist-text"><strong>Virtual Network (VNet)</strong>, <strong>Subnets</strong>, <strong>NSG</strong>, <strong>Load Balancer</strong>, <strong>VPN Gateway</strong></span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔒</span> Azure Security Basics (30 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-27"><span class="checklist-text"><strong>Azure AD / Entra ID</strong>: identity management</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-28"><span class="checklist-text"><strong>RBAC</strong>: Role-Based Access Control — who can do what</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-29"><span class="checklist-text"><strong>MFA</strong>: Multi-Factor Authentication</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-30"><span class="checklist-text"><strong>Azure Key Vault</strong>: store secrets, keys, certificates</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-31"><span class="checklist-text"><strong>Encryption</strong>: at rest, in transit</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> Azure Data Services (45 mins) — Most relevant to your role</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-32"><span class="checklist-text"><strong>Azure Synapse Analytics</strong>: data warehouse + analytics</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-33"><span class="checklist-text"><strong>Azure Data Factory (ADF)</strong>: ETL/data pipeline tool</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-34"><span class="checklist-text"><strong>Azure Databricks</strong>: Spark-based analytics platform</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-35"><span class="checklist-text"><strong>Azure HDInsight</strong>: managed Hadoop/Spark clusters</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-36"><span class="checklist-text"><strong>Azure Event Hubs</strong>: streaming data ingestion</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-37"><span class="checklist-text"><strong>Azure Stream Analytics</strong>: real-time data processing</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-38"><span class="checklist-text">How these relate to Palantir Foundry</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🎥</span> YouTube Videos</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-v1"><span class="checklist-text">"Azure Fundamentals in 1 Hour" — FreeCodeCamp</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-v2"><span class="checklist-text">"AZ-900 Crash Course" — Adam Marczak (first 30 mins)</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Make Notes On</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-n1"><span class="checklist-text">Draw a diagram: Data Sources → Azure Storage → Processing → Analytics</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d3-n2"><span class="checklist-text">List 5 Azure services relevant to data engineering</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 4 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 4</span>
+        <div class="day-info">
+          <div class="day-title">Azure Cloud Fundamentals — Session 4</div>
+          <div class="day-date">June 26 (Thu)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training (7-10 AM)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-1"><span class="checklist-text">Revise yesterday's notes on Azure storage & networking</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-2"><span class="checklist-text">Pre-read: Azure monitoring — Azure Monitor, Log Analytics</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-3"><span class="checklist-text">Pre-read: Azure pricing — how billing works</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-4"><span class="checklist-text">Pre-read: Azure management — ARM templates, Azure Policy</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-5"><span class="checklist-text">Pre-read: Azure compliance — GDPR, ISO 27001, SOC</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🏗️</span> Azure Management & Governance (1 hour)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-6"><span class="checklist-text"><strong>Azure Resource Manager (ARM)</strong>: how Azure manages resources</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-7"><span class="checklist-text"><strong>ARM Templates / Bicep</strong>: Infrastructure as Code</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-8"><span class="checklist-text"><strong>Azure Policy</strong>: enforce rules on resources</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-9"><span class="checklist-text"><strong>Azure Blueprints</strong>: predefined environment setups</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-10"><span class="checklist-text"><strong>Cost Management</strong>: monitoring and controlling spending</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-11"><span class="checklist-text"><strong>Tags</strong>: labeling resources for organization</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-12"><span class="checklist-text"><strong>Azure Advisor</strong>: recommendations for optimization</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📊</span> Azure Monitoring (45 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-13"><span class="checklist-text"><strong>Azure Monitor</strong>: collect and analyze telemetry</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-14"><span class="checklist-text"><strong>Log Analytics</strong>: query logs with KQL (Kusto Query Language)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-15"><span class="checklist-text"><strong>Application Insights</strong>: application performance monitoring</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-16"><span class="checklist-text"><strong>Alerts</strong>: automated notifications</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-17"><span class="checklist-text"><strong>Dashboards</strong>: visual monitoring</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔒</span> Azure Identity & Compliance (45 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-18"><span class="checklist-text"><strong>Azure AD / Microsoft Entra ID</strong>: Users, Groups, Roles, Service Principals, Managed Identities</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-19"><span class="checklist-text"><strong>Conditional Access</strong>: policies for access control</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-20"><span class="checklist-text"><strong>Compliance certifications</strong>: GDPR, HIPAA, SOC 1/2/3, ISO 27001</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-21"><span class="checklist-text"><strong>Microsoft Defender for Cloud</strong>: security posture management</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">💰</span> Azure Pricing (30 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-22"><span class="checklist-text"><strong>Pricing models</strong>: Pay-as-you-go, Reserved Instances, Spot pricing</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-23"><span class="checklist-text"><strong>Azure Pricing Calculator</strong>: estimate costs</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-24"><span class="checklist-text"><strong>TCO Calculator</strong>: compare on-premise vs cloud costs</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-25"><span class="checklist-text"><strong>Free tier</strong>: what's free in Azure</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Practice</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-p1"><span class="checklist-text">Create a free Azure account at portal.azure.com</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-p2"><span class="checklist-text">Explore the Azure Portal interface</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d4-p3"><span class="checklist-text">Try creating a resource group (free, no cost)</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- WEEKEND Jun 27-28 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Weekend</span>
+        <div class="day-info">
+          <div class="day-title">Azure Revision + SQL Pre-Learning</div>
+          <div class="day-date">June 27-28 (Sat-Sun)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📅</span> Saturday (4-5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="wk1-1"><span class="checklist-text"><strong>Morning (2 hrs)</strong>: Complete Azure revision — review all notes Days 1-4, make 1-page cheat sheet, focus on ADLS, Synapse, ADF, Databricks, draw architecture diagrams</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="wk1-2"><span class="checklist-text"><strong>Afternoon (2-3 hrs)</strong>: Start SQL pre-learning — install PostgreSQL or use SQLBolt.com, learn database/table/row/column/primary key concepts</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="wk1-3"><span class="checklist-text">Write your FIRST query: <code class="inline-code">SELECT * FROM table_name;</code></span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📅</span> Sunday (4-5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="wk1-4"><span class="checklist-text"><strong>Morning (2 hrs)</strong>: SQL pre-learning — Practice SELECT, WHERE on SQLBolt (Lessons 1-6), understand =, >, <, LIKE, IN, BETWEEN, ORDER BY, LIMIT</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="wk1-5"><span class="checklist-text">Write 20 basic SELECT queries</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="wk1-6"><span class="checklist-text"><strong>Afternoon (2-3 hrs)</strong>: Learn AND, OR, NOT in WHERE. Practice on HackerRank SQL (Easy). Revise Azure notes.</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 5 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 5</span>
+        <div class="day-info">
+          <div class="day-title">Azure Cloud Fundamentals — Session 5 (LAST)</div>
+          <div class="day-date">June 29 (Mon)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training (7-10 AM)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-1"><span class="checklist-text">Quick revision of all Azure concepts (use your cheat sheet)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-2"><span class="checklist-text">Pre-read: Azure architecture best practices, Well-Architected Framework</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🏗️</span> Azure Final Topics (1 hour)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-3"><span class="checklist-text"><strong>Azure Well-Architected Framework</strong>: 5 pillars — Reliability, Security, Cost Optimization, Operational Excellence, Performance Efficiency</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-4"><span class="checklist-text"><strong>High Availability & Disaster Recovery</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-5"><span class="checklist-text"><strong>Azure SLA</strong>: uptime guarantees (99.9%, 99.95%, 99.99%)</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> Azure for Data Engineering Summary (1 hour)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-6"><span class="checklist-text">Create a master diagram connecting ALL Azure data services</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Architecture</span><button class="code-copy">Copy</button></div><pre>Data Sources → Azure Data Factory (ETL) → Azure Data Lake Storage (ADLS)
+                                                    ↓
+                                           Azure Databricks / Synapse
+                                                    ↓
+                                           Power BI / Analytics</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-7"><span class="checklist-text">Understand how Palantir Foundry fits in</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Architecture</span><button class="code-copy">Copy</button></div><pre>On-premise DB → Foundry Agent → Palantir Foundry (ADLS backend)
+Cloud Storage → Foundry Connector → Palantir Foundry</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-8"><span class="checklist-text">Map Azure concepts to Palantir Foundry equivalents</span></div>
+            <table class="styled-table">
+              <thead><tr><th>Azure</th><th>Palantir Foundry Equivalent</th></tr></thead>
+              <tbody>
+                <tr><td>Azure Data Factory</td><td>Foundry Data Connection + Transforms</td></tr>
+                <tr><td>ADLS</td><td>Foundry Datasets (storage layer)</td></tr>
+                <tr><td>Azure Synapse</td><td>Foundry + Contour</td></tr>
+                <tr><td>Azure Monitor</td><td>Foundry Data Health</td></tr>
+                <tr><td>Azure AD/RBAC</td><td>Foundry Permissions</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔥</span> SQL Pre-Study Deep Dive (2 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-9"><span class="checklist-text">Complete SQLBolt Lessons 1-12</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-10"><span class="checklist-text">Understand: SELECT, FROM, WHERE, ORDER BY, LIMIT, DISTINCT, comparisons, LIKE with % and _, IS NULL / IS NOT NULL</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-11"><span class="checklist-text">Practice 15 queries on sql-practice.com</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Azure Exam Notes</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d5-12"><span class="checklist-text">Create a final 2-page Azure summary: Cloud concepts, Core services, Data services, Security, Management</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ==========================================
+       WEEK 2: SQL (Days 6-8)
+       ========================================== -->
+  <section class="content-section" id="week2-sql" data-week="week2-sql">
+    <div class="section-header fade-in">
+      <div class="section-icon sql">🟩</div>
+      <div>
+        <h2 class="section-title">Week 2: SQL</h2>
+        <p class="section-subtitle">June 30 – July 2 · Days 6-8</p>
+      </div>
+    </div>
+    <div class="week-progress fade-in">
+      <div class="progress-header">
+        <span class="progress-title">Week 2 (SQL) Progress</span>
+        <span class="progress-count" id="week-week2-sql-count">0/0</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="week-week2-sql-fill" style="width:0%"></div></div>
+    </div>
+
+    <!-- DAY 6 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 6</span>
+        <div class="day-info">
+          <div class="day-title">SQL — Session 1 of 3</div>
+          <div class="day-date">June 30 (Tue)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training (7-10 AM)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-1"><span class="checklist-text">Revise SQLBolt exercises from weekend</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-2"><span class="checklist-text">Pre-read: Relational databases, tables, rows, columns, schema, data types, PRIMARY KEY, FOREIGN KEY</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🗄️</span> Database Fundamentals Deep Dive (1.5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-3"><span class="checklist-text"><strong>What is a Database</strong>: organized digital filing cabinet. Why not Excel? (data integrity, multi-user, scale, relationships). RDBMS: MySQL, PostgreSQL, Oracle, SQL Server, SQLite</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-4"><span class="checklist-text"><strong>Table Structure</strong>: Table = collection of related data, Row = one record, Column = one attribute, Schema = blueprint</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-5"><span class="checklist-text"><strong>Data Types</strong>: INT, BIGINT, DECIMAL(p,s), FLOAT, VARCHAR(n), CHAR(n), TEXT, DATE, TIMESTAMP, BOOLEAN, NULL</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-6"><span class="checklist-text"><strong>Constraints</strong>: NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-7"><span class="checklist-text"><strong>Relationships</strong>: One-to-One, One-to-Many, Many-to-Many (junction table)</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> SELECT Mastery (2 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-8"><span class="checklist-text"><strong>Basic SELECT</strong>: SELECT *, specific columns, column aliases (AS)</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> * <span class="kw">FROM</span> employees;
+<span class="kw">SELECT</span> first_name, last_name, salary <span class="kw">FROM</span> employees;
+<span class="kw">SELECT</span> first_name <span class="kw">AS</span> name, salary <span class="kw">AS</span> monthly_pay <span class="kw">FROM</span> employees;</pre></div>
+
+            <div class="checklist-item"><input type="checkbox" data-id="d6-9"><span class="checklist-text"><strong>WHERE Clause</strong>: =, >, >=, AND, OR, NOT, BETWEEN, IN, LIKE, IS NULL/IS NOT NULL</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> * <span class="kw">FROM</span> employees <span class="kw">WHERE</span> department = <span class="st">'Engineering'</span>;
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> employees <span class="kw">WHERE</span> salary > <span class="nb">50000</span>;
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> employees <span class="kw">WHERE</span> department = <span class="st">'Sales'</span> <span class="kw">AND</span> salary > <span class="nb">40000</span>;
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> employees <span class="kw">WHERE</span> salary <span class="kw">BETWEEN</span> <span class="nb">30000</span> <span class="kw">AND</span> <span class="nb">60000</span>;
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> employees <span class="kw">WHERE</span> department <span class="kw">IN</span> (<span class="st">'Sales'</span>, <span class="st">'Marketing'</span>, <span class="st">'HR'</span>);
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> employees <span class="kw">WHERE</span> first_name <span class="kw">LIKE</span> <span class="st">'A%'</span>;    <span class="cm">-- starts with A</span>
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> employees <span class="kw">WHERE</span> manager_id <span class="kw">IS NULL</span>;</pre></div>
+
+            <div class="checklist-item"><input type="checkbox" data-id="d6-10"><span class="checklist-text"><strong>ORDER BY</strong>: ASC (default), DESC, multi-column sort</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-11"><span class="checklist-text"><strong>DISTINCT</strong>: unique values only</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-12"><span class="checklist-text"><strong>LIMIT</strong>: restrict number of rows returned</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Practice (1 hour)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-p1"><span class="checklist-text">Complete SQLBolt Lessons 1-9</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-p2"><span class="checklist-text">Solve 10 easy problems on HackerRank SQL</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d6-p3"><span class="checklist-text">Write 5 queries from memory: filter by department, salary sort, name starts with 'S', distinct departments, top 5 salaries</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 7 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 7</span>
+        <div class="day-info">
+          <div class="day-title">SQL — Session 2 of 3</div>
+          <div class="day-date">July 1 (Wed)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-1"><span class="checklist-text">Revise yesterday's SELECT, WHERE, ORDER BY</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-2"><span class="checklist-text">Pre-read: Aggregate functions, GROUP BY, JOINs</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> Aggregate Functions (1 hour)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-3"><span class="checklist-text"><strong>COUNT()</strong>, <strong>SUM()</strong>, <strong>AVG()</strong>, <strong>MIN()</strong>, <strong>MAX()</strong></span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> <span class="fn">COUNT</span>(*) <span class="kw">FROM</span> employees;
+<span class="kw">SELECT</span> <span class="fn">SUM</span>(salary) <span class="kw">FROM</span> employees <span class="kw">WHERE</span> department = <span class="st">'Sales'</span>;
+<span class="kw">SELECT</span> <span class="fn">ROUND</span>(<span class="fn">AVG</span>(salary), <span class="nb">2</span>) <span class="kw">FROM</span> employees;
+<span class="kw">SELECT</span> <span class="fn">MIN</span>(salary), <span class="fn">MAX</span>(salary) <span class="kw">FROM</span> employees;</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-4"><span class="checklist-text"><strong>NULL behavior</strong>: Aggregates IGNORE NULL values (except COUNT(*))</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> GROUP BY & HAVING (1.5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-5"><span class="checklist-text"><strong>GROUP BY</strong>: group rows and aggregate</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> department, <span class="fn">AVG</span>(salary) <span class="kw">AS</span> avg_salary
+<span class="kw">FROM</span> employees
+<span class="kw">GROUP BY</span> department;
+
+<span class="kw">SELECT</span> department, <span class="fn">COUNT</span>(*) <span class="kw">AS</span> emp_count,
+       <span class="fn">AVG</span>(salary) <span class="kw">AS</span> avg_salary,
+       <span class="fn">MIN</span>(salary) <span class="kw">AS</span> min_salary,
+       <span class="fn">MAX</span>(salary) <span class="kw">AS</span> max_salary
+<span class="kw">FROM</span> employees
+<span class="kw">GROUP BY</span> department;</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-6"><span class="checklist-text"><strong>HAVING</strong>: filter AFTER grouping</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> department, <span class="fn">COUNT</span>(*) <span class="kw">AS</span> emp_count
+<span class="kw">FROM</span> employees
+<span class="kw">GROUP BY</span> department
+<span class="kw">HAVING</span> <span class="fn">COUNT</span>(*) > <span class="nb">5</span>;</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-7"><span class="checklist-text"><strong>WHERE vs HAVING</strong>: WHERE filters BEFORE grouping, HAVING filters AFTER grouping</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔥🔥🔥</span> JOINs — THE MOST IMPORTANT CONCEPT (2.5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-8"><span class="checklist-text"><strong>INNER JOIN</strong> — only matching rows from both tables</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-9"><span class="checklist-text"><strong>LEFT JOIN</strong> — all from left + matching from right</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-10"><span class="checklist-text"><strong>RIGHT JOIN</strong> — all from right + matching from left</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-11"><span class="checklist-text"><strong>FULL OUTER JOIN</strong> — all from both tables</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-12"><span class="checklist-text"><strong>CROSS JOIN</strong> — every combination (cartesian product)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-13"><span class="checklist-text"><strong>SELF JOIN</strong> — table joined with itself (e.g., employee & manager)</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="cm">-- INNER JOIN</span>
+<span class="kw">SELECT</span> e.first_name, d.department_name
+<span class="kw">FROM</span> employees e
+<span class="kw">INNER JOIN</span> departments d <span class="kw">ON</span> e.department_id = d.id;
+
+<span class="cm">-- LEFT JOIN</span>
+<span class="kw">SELECT</span> e.first_name, d.department_name
+<span class="kw">FROM</span> employees e
+<span class="kw">LEFT JOIN</span> departments d <span class="kw">ON</span> e.department_id = d.id;
+
+<span class="cm">-- SELF JOIN: employee's manager</span>
+<span class="kw">SELECT</span> e.first_name <span class="kw">AS</span> employee, m.first_name <span class="kw">AS</span> manager
+<span class="kw">FROM</span> employees e
+<span class="kw">LEFT JOIN</span> employees m <span class="kw">ON</span> e.manager_id = m.id;
+
+<span class="cm">-- Joining 3+ tables</span>
+<span class="kw">SELECT</span> e.first_name, d.department_name, l.city
+<span class="kw">FROM</span> employees e
+<span class="kw">JOIN</span> departments d <span class="kw">ON</span> e.department_id = d.id
+<span class="kw">JOIN</span> locations l <span class="kw">ON</span> d.location_id = l.id;</pre></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Practice</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-p1"><span class="checklist-text">Draw Venn diagrams for each JOIN type</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-p2"><span class="checklist-text">Complete SQLBolt Lessons 10-14</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-p3"><span class="checklist-text">Write 15 JOIN queries from scratch</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d7-p4"><span class="checklist-text">HackerRank SQL: 10 medium problems</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 8 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 8</span>
+        <div class="day-info">
+          <div class="day-title">SQL — Session 3 of 3 (LAST SQL DAY)</div>
+          <div class="day-date">July 2 (Thu)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-1"><span class="checklist-text">Revise JOINs and GROUP BY</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-2"><span class="checklist-text">Pre-read: Subqueries, CTEs, Window Functions</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> Subqueries & CTEs (1.5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-3"><span class="checklist-text"><strong>Subquery in WHERE</strong></span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> * <span class="kw">FROM</span> employees
+<span class="kw">WHERE</span> salary > (<span class="kw">SELECT</span> <span class="fn">AVG</span>(salary) <span class="kw">FROM</span> employees);
+
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> employees
+<span class="kw">WHERE</span> department_id <span class="kw">IN</span> (
+    <span class="kw">SELECT</span> id <span class="kw">FROM</span> departments <span class="kw">WHERE</span> city = <span class="st">'Mumbai'</span>
+);</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-4"><span class="checklist-text"><strong>Subquery in FROM</strong> (derived table)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-5"><span class="checklist-text"><strong>EXISTS / NOT EXISTS</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-6"><span class="checklist-text"><strong>CTEs (Common Table Expressions)</strong> 🔥 Used heavily in Spark SQL!</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">WITH</span> high_earners <span class="kw">AS</span> (
+    <span class="kw">SELECT</span> * <span class="kw">FROM</span> employees <span class="kw">WHERE</span> salary > <span class="nb">70000</span>
+),
+dept_counts <span class="kw">AS</span> (
+    <span class="kw">SELECT</span> department, <span class="fn">COUNT</span>(*) <span class="kw">AS</span> cnt
+    <span class="kw">FROM</span> high_earners
+    <span class="kw">GROUP BY</span> department
+)
+<span class="kw">SELECT</span> * <span class="kw">FROM</span> dept_counts <span class="kw">ORDER BY</span> cnt <span class="kw">DESC</span>;</pre></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔥🔥🔥</span> Window Functions — CRITICAL FOR DATA ENGINEERING (2 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-7"><span class="checklist-text"><strong>ROW_NUMBER()</strong> — unique sequence</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-8"><span class="checklist-text"><strong>RANK() vs DENSE_RANK()</strong> — RANK skips, DENSE_RANK doesn't</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> first_name, department, salary,
+       <span class="fn">ROW_NUMBER</span>() <span class="kw">OVER</span> (<span class="kw">PARTITION BY</span> department <span class="kw">ORDER BY</span> salary <span class="kw">DESC</span>) <span class="kw">AS</span> rank
+<span class="kw">FROM</span> employees;
+
+<span class="cm">-- RANK: 1, 2, 2, 4 (skips 3)</span>
+<span class="cm">-- DENSE_RANK: 1, 2, 2, 3 (no skip)</span></pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-9"><span class="checklist-text"><strong>LAG() / LEAD()</strong> — access previous/next row values</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> transaction_date, amount,
+       <span class="fn">LAG</span>(amount) <span class="kw">OVER</span> (<span class="kw">ORDER BY</span> transaction_date) <span class="kw">AS</span> prev_amount,
+       amount - <span class="fn">LAG</span>(amount) <span class="kw">OVER</span> (<span class="kw">ORDER BY</span> transaction_date) <span class="kw">AS</span> change
+<span class="kw">FROM</span> transactions;</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-10"><span class="checklist-text"><strong>Running Total</strong> and <strong>Moving Average</strong></span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="cm">-- Running Total</span>
+<span class="kw">SELECT</span> transaction_date, amount,
+       <span class="fn">SUM</span>(amount) <span class="kw">OVER</span> (<span class="kw">ORDER BY</span> transaction_date) <span class="kw">AS</span> running_total
+<span class="kw">FROM</span> transactions;
+
+<span class="cm">-- Moving Average (3-period)</span>
+<span class="kw">SELECT</span> transaction_date, amount,
+       <span class="fn">AVG</span>(amount) <span class="kw">OVER</span> (<span class="kw">ORDER BY</span> transaction_date
+                         <span class="kw">ROWS BETWEEN</span> <span class="nb">2</span> <span class="kw">PRECEDING AND CURRENT ROW</span>) <span class="kw">AS</span> moving_avg_3
+<span class="kw">FROM</span> transactions;</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-11"><span class="checklist-text"><strong>FIRST_VALUE / LAST_VALUE / NTH_VALUE / NTILE(n)</strong></span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔀</span> CASE WHEN & Conditional Logic (45 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-12"><span class="checklist-text"><strong>Simple CASE</strong> and <strong>CASE in aggregation</strong></span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">SQL</span><button class="code-copy">Copy</button></div><pre><span class="kw">SELECT</span> first_name, salary,
+       <span class="kw">CASE</span>
+           <span class="kw">WHEN</span> salary > <span class="nb">80000</span> <span class="kw">THEN</span> <span class="st">'High'</span>
+           <span class="kw">WHEN</span> salary > <span class="nb">50000</span> <span class="kw">THEN</span> <span class="st">'Medium'</span>
+           <span class="kw">ELSE</span> <span class="st">'Low'</span>
+       <span class="kw">END AS</span> salary_category
+<span class="kw">FROM</span> employees;</pre></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔗</span> Set Operations & DDL (1 hour)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-13"><span class="checklist-text"><strong>UNION / UNION ALL / INTERSECT / EXCEPT</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-14"><span class="checklist-text"><strong>DDL</strong>: CREATE TABLE, ALTER TABLE, DROP TABLE, TRUNCATE TABLE, DELETE FROM</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-15"><span class="checklist-text"><strong>CREATE TABLE AS SELECT (CTAS)</strong> 🔥 — used in data engineering!</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Practice</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-p1"><span class="checklist-text">Write 10 window function queries</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-p2"><span class="checklist-text">Write 5 CTE queries</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-p3"><span class="checklist-text">LeetCode SQL: solve 5 medium problems</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d8-p4"><span class="checklist-text">Create a complete SQL cheat sheet from memory</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ==========================================
+       WEEK 2-3: PYTHON (Days 9-15)
+       ========================================== -->
+  <section class="content-section" id="week23-python" data-week="week23-python">
+    <div class="section-header fade-in">
+      <div class="section-icon python">🟨</div>
+      <div>
+        <h2 class="section-title">Week 2-3: Python for Data Engineers</h2>
+        <p class="section-subtitle">July 3 – July 13 · Days 9-15</p>
+      </div>
+    </div>
+    <div class="week-progress fade-in">
+      <div class="progress-header">
+        <span class="progress-title">Python Progress</span>
+        <span class="progress-count" id="week-week23-python-count">0/0</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="week-week23-python-fill" style="width:0%"></div></div>
+    </div>
+
+    <!-- DAY 9 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 9</span>
+        <div class="day-info">
+          <div class="day-title">Python — Session 1 of 7</div>
+          <div class="day-date">July 3 (Fri)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training — Setup</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-1"><span class="checklist-text">Install Python 3.12+ from python.org (⚠️ CHECK "Add Python to PATH"!)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-2"><span class="checklist-text">Install VS Code + Python extension</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-3"><span class="checklist-text">Create hello.py, run <code class="inline-code">print("Hello World")</code></span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🐍</span> Python Absolute Basics (3 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-4"><span class="checklist-text"><strong>print() function</strong>: basic print, sep, end parameters</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre><span class="fn">print</span>(<span class="st">"Hello"</span>)
+<span class="fn">print</span>(<span class="st">"Hello"</span>, <span class="st">"World"</span>, sep=<span class="st">"-"</span>)  <span class="cm"># Hello-World</span>
+<span class="fn">print</span>(<span class="st">"Hello"</span>, end=<span class="st">" "</span>)
+<span class="fn">print</span>(<span class="st">"World"</span>)                    <span class="cm"># Hello World</span></pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-5"><span class="checklist-text"><strong>Variables</strong>: name = "Rahul", age = 22, height = 5.8, is_student = True</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-6"><span class="checklist-text"><strong>Variable naming rules</strong>: snake_case recommended, no hyphens/spaces, can't start with number</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-7"><span class="checklist-text"><strong>Data Types</strong>: int, float, str, bool, None</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre>age = <span class="nb">25</span>           <span class="cm"># int</span>
+price = <span class="nb">99.99</span>      <span class="cm"># float</span>
+name = <span class="st">"Rahul"</span>     <span class="cm"># str</span>
+is_active = <span class="nb">True</span>   <span class="cm"># bool</span>
+result = <span class="nb">None</span>      <span class="cm"># NoneType</span>
+big = <span class="nb">1_000_000</span>    <span class="cm"># underscores for readability</span></pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-8"><span class="checklist-text"><strong>Type Conversion</strong>: int(), str(), float(), type(), isinstance()</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-9"><span class="checklist-text"><strong>Input from user</strong>: input() always returns string, convert with int()</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-10"><span class="checklist-text"><strong>Operators</strong>: +, -, *, / (float!), // (floor), % (modulo), ** (power)</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📝</span> Practice — Write 10 Programs</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p1"><span class="checklist-text">Print your name, age, city</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p2"><span class="checklist-text">Calculate area of rectangle</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p3"><span class="checklist-text">Convert Celsius to Fahrenheit: F = (C × 9/5) + 32</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p4"><span class="checklist-text">Calculate simple interest: SI = (P × R × T) / 100</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p5"><span class="checklist-text">Swap two variables</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p6"><span class="checklist-text">Take 2 numbers, print sum/difference/product/quotient</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p7"><span class="checklist-text">Check even or odd (use %)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p8"><span class="checklist-text">Calculate BMI: weight / (height²)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p9"><span class="checklist-text">Convert minutes to hours and minutes</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d9-p10"><span class="checklist-text">Calculate total cost: price × quantity + tax(18%)</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- WEEKEND Jul 4-5 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Weekend</span>
+        <div class="day-info">
+          <div class="day-title">Python Basics Practice + Control Flow</div>
+          <div class="day-date">July 4-5 (Sat-Sun)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📅</span> Saturday (5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="wk2-1"><span class="checklist-text"><strong>Morning (2.5 hrs)</strong>: Revise variables, types, operators. String deep dive: indexing, slicing, upper/lower/split, len, f-strings</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre>name = <span class="st">"Hello World"</span>
+<span class="fn">print</span>(name[<span class="nb">0</span>])        <span class="cm"># H</span>
+<span class="fn">print</span>(name[<span class="nb">0</span>:<span class="nb">5</span>])      <span class="cm"># Hello (slicing)</span>
+<span class="fn">print</span>(name.upper())   <span class="cm"># HELLO WORLD</span>
+<span class="fn">print</span>(name.split())   <span class="cm"># ['Hello', 'World']</span>
+
+<span class="cm"># f-strings (MOST IMPORTANT for formatting)</span>
+name = <span class="st">"Rahul"</span>
+age = <span class="nb">22</span>
+<span class="fn">print</span>(<span class="st">f"My name is {name} and I am {age} years old"</span>)
+<span class="fn">print</span>(<span class="st">f"Price: ₹{price:.2f}"</span>)  <span class="cm"># 2 decimal places</span></pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="wk2-2"><span class="checklist-text"><strong>Afternoon (2.5 hrs)</strong>: Control flow — if/elif/else, for loops, while loops</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre><span class="cm"># if-else</span>
+age = <span class="nb">20</span>
+<span class="kw">if</span> age >= <span class="nb">18</span>:
+    <span class="fn">print</span>(<span class="st">"Adult"</span>)
+<span class="kw">elif</span> age >= <span class="nb">13</span>:
+    <span class="fn">print</span>(<span class="st">"Teenager"</span>)
+<span class="kw">else</span>:
+    <span class="fn">print</span>(<span class="st">"Child"</span>)
+
+<span class="cm"># for loop</span>
+<span class="kw">for</span> i <span class="kw">in</span> <span class="fn">range</span>(<span class="nb">1</span>, <span class="nb">11</span>):
+    <span class="fn">print</span>(i)
+
+fruits = [<span class="st">"apple"</span>, <span class="st">"banana"</span>, <span class="st">"mango"</span>]
+<span class="kw">for</span> fruit <span class="kw">in</span> fruits:
+    <span class="fn">print</span>(fruit)
+
+<span class="cm"># while loop</span>
+count = <span class="nb">1</span>
+<span class="kw">while</span> count <= <span class="nb">5</span>:
+    <span class="fn">print</span>(count)
+    count += <span class="nb">1</span></pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="wk2-3"><span class="checklist-text">Write 10 loop programs (patterns, tables, factorial)</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📅</span> Sunday (5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="wk2-4"><span class="checklist-text">Solve 20 Python problems on HackerRank (Easy)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="wk2-5"><span class="checklist-text">Practice lists, tuples, dictionaries (pre-read)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="wk2-6"><span class="checklist-text">Create cheat sheet: Variables + Types + Operators + Strings + if/else + Loops</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 10 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 10</span>
+        <div class="day-info">
+          <div class="day-title">Python — Session 2: Lists & Dictionaries</div>
+          <div class="day-date">July 6 (Mon)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-1"><span class="checklist-text">Revise: strings, if/else, loops from weekend</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-2"><span class="checklist-text">Pre-read: Lists and list methods</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> Lists (2 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-3"><span class="checklist-text"><strong>Lists</strong>: creating, accessing (indexing, slicing), modifying (append, insert, extend, remove, pop)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-4"><span class="checklist-text"><strong>List operations</strong>: len, sum, min, max, in, sorted, sort, reverse</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-5"><span class="checklist-text"><strong>🔥 List comprehension</strong>: <code class="inline-code">[x**2 for x in range(10)]</code>, with conditions</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-6"><span class="checklist-text"><strong>Nested lists</strong> (2D matrices): <code class="inline-code">matrix[0][1]</code></span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📦</span> Tuples (30 mins)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-7"><span class="checklist-text"><strong>Tuples</strong>: immutable sequences, unpacking, single element <code class="inline-code">(5,)</code></span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔥</span> Dictionaries (1.5 hours) — CRITICAL FOR DATA ENGINEERING</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-8"><span class="checklist-text"><strong>Creating</strong>, <strong>accessing</strong> ([], .get()), <strong>adding/updating</strong>, <strong>methods</strong> (.keys(), .values(), .items())</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-9"><span class="checklist-text"><strong>Iterating</strong> dictionaries, <strong>dictionary comprehension</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d10-10"><span class="checklist-text"><strong>Nested dictionaries</strong> (like JSON — used everywhere in data!)</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre>student = {
+    <span class="st">"name"</span>: <span class="st">"Rahul"</span>,
+    <span class="st">"age"</span>: <span class="nb">22</span>,
+    <span class="st">"marks"</span>: [<span class="nb">85</span>, <span class="nb">90</span>, <span class="nb">78</span>]
+}
+<span class="fn">print</span>(student[<span class="st">"name"</span>])              <span class="cm"># Rahul</span>
+<span class="fn">print</span>(student.get(<span class="st">"phone"</span>, <span class="st">"N/A"</span>))  <span class="cm"># N/A</span>
+
+<span class="cm"># Dictionary comprehension</span>
+squares = {x: x**<span class="nb">2</span> <span class="kw">for</span> x <span class="kw">in</span> <span class="fn">range</span>(<span class="nb">6</span>)}
+
+<span class="cm"># Nested (like JSON)</span>
+employees = {
+    <span class="st">"E001"</span>: {<span class="st">"name"</span>: <span class="st">"Rahul"</span>, <span class="st">"dept"</span>: <span class="st">"Engineering"</span>, <span class="st">"salary"</span>: <span class="nb">50000</span>},
+    <span class="st">"E002"</span>: {<span class="st">"name"</span>: <span class="st">"Priya"</span>, <span class="st">"dept"</span>: <span class="st">"Marketing"</span>, <span class="st">"salary"</span>: <span class="nb">45000</span>}
+}</pre></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 11 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 11</span>
+        <div class="day-info">
+          <div class="day-title">Python — Session 3: Functions & Error Handling</div>
+          <div class="day-date">July 7 (Tue)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⭐</span> Functions (2.5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d11-1"><span class="checklist-text"><strong>Basic functions</strong>: def, return, docstrings</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d11-2"><span class="checklist-text"><strong>Default parameters</strong> and keyword arguments</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d11-3"><span class="checklist-text"><strong>*args and **kwargs</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d11-4"><span class="checklist-text"><strong>Lambda functions</strong>: <code class="inline-code">square = lambda x: x ** 2</code></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d11-5"><span class="checklist-text"><strong>map, filter, reduce</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d11-6"><span class="checklist-text"><strong>🔥 Decorators</strong> — Palantir uses @transform!</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre><span class="kw">def</span> <span class="fn">greet</span>(name, greeting=<span class="st">"Hello"</span>):
+    <span class="kw">return</span> <span class="st">f"{greeting}, {name}!"</span>
+
+<span class="cm"># *args and **kwargs</span>
+<span class="kw">def</span> <span class="fn">add_all</span>(*args):
+    <span class="kw">return</span> <span class="fn">sum</span>(args)
+
+<span class="cm"># Lambda + map/filter</span>
+numbers = [<span class="nb">1</span>, <span class="nb">2</span>, <span class="nb">3</span>, <span class="nb">4</span>, <span class="nb">5</span>]
+squared = <span class="fn">list</span>(<span class="fn">map</span>(<span class="kw">lambda</span> x: x**<span class="nb">2</span>, numbers))
+evens = <span class="fn">list</span>(<span class="fn">filter</span>(<span class="kw">lambda</span> x: x%<span class="nb">2</span> == <span class="nb">0</span>, numbers))
+
+<span class="cm"># Decorators 🔥</span>
+<span class="kw">def</span> <span class="fn">my_decorator</span>(func):
+    <span class="kw">def</span> <span class="fn">wrapper</span>(*args, **kwargs):
+        <span class="fn">print</span>(<span class="st">"Before function call"</span>)
+        result = func(*args, **kwargs)
+        <span class="fn">print</span>(<span class="st">"After function call"</span>)
+        <span class="kw">return</span> result
+    <span class="kw">return</span> wrapper
+
+<span class="nb">@my_decorator</span>
+<span class="kw">def</span> <span class="fn">say_hello</span>(name):
+    <span class="fn">print</span>(<span class="st">f"Hello {name}"</span>)</pre></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⚠️</span> Error Handling (1.5 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d11-7"><span class="checklist-text"><strong>try-except-else-finally</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d11-8"><span class="checklist-text"><strong>Common exceptions</strong>: ValueError, TypeError, KeyError, IndexError, FileNotFoundError</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre><span class="kw">try</span>:
+    result = <span class="nb">10</span> / <span class="nb">0</span>
+<span class="kw">except</span> ZeroDivisionError:
+    <span class="fn">print</span>(<span class="st">"Cannot divide by zero!"</span>)
+<span class="kw">except</span> Exception <span class="kw">as</span> e:
+    <span class="fn">print</span>(<span class="st">f"Error: {e}"</span>)
+<span class="kw">else</span>:
+    <span class="fn">print</span>(<span class="st">"Success!"</span>)  <span class="cm"># runs if NO error</span>
+<span class="kw">finally</span>:
+    <span class="fn">print</span>(<span class="st">"This always runs"</span>)</pre></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 12 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 12</span>
+        <div class="day-info">
+          <div class="day-title">Python — Session 4: File Handling & OOP</div>
+          <div class="day-date">July 8 (Wed)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔥</span> File Handling (2 hours) — CRITICAL FOR DATA ENGINEERING</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d12-1"><span class="checklist-text"><strong>Reading/writing text files</strong> with <code class="inline-code">open()</code> and <code class="inline-code">with</code> statement</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d12-2"><span class="checklist-text"><strong>🔥 Working with CSV</strong>: csv.DictReader, csv.DictWriter</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d12-3"><span class="checklist-text"><strong>🔥 Working with JSON</strong>: json.load, json.dump</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre><span class="cm"># Reading text file</span>
+<span class="kw">with</span> <span class="fn">open</span>(<span class="st">"data.txt"</span>, <span class="st">"r"</span>) <span class="kw">as</span> file:
+    content = file.read()
+
+<span class="cm"># Working with CSV 🔥</span>
+<span class="kw">import</span> csv
+<span class="kw">with</span> <span class="fn">open</span>(<span class="st">"employees.csv"</span>, <span class="st">"r"</span>) <span class="kw">as</span> file:
+    reader = csv.DictReader(file)
+    <span class="kw">for</span> row <span class="kw">in</span> reader:
+        <span class="fn">print</span>(row[<span class="st">"name"</span>], row[<span class="st">"salary"</span>])
+
+<span class="cm"># Working with JSON 🔥</span>
+<span class="kw">import</span> json
+<span class="kw">with</span> <span class="fn">open</span>(<span class="st">"data.json"</span>, <span class="st">"r"</span>) <span class="kw">as</span> file:
+    data = json.load(file)</pre></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🏗️</span> OOP Basics (2 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d12-4"><span class="checklist-text"><strong>Classes & objects</strong>: __init__, methods, __str__</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d12-5"><span class="checklist-text"><strong>Inheritance</strong>: super().__init__(), extending classes</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre><span class="kw">class</span> <span class="fn">Employee</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(self, name, department, salary):
+        self.name = name
+        self.department = department
+        self.salary = salary
+
+    <span class="kw">def</span> <span class="fn">get_annual_salary</span>(self):
+        <span class="kw">return</span> self.salary * <span class="nb">12</span>
+
+<span class="cm"># Inheritance</span>
+<span class="kw">class</span> <span class="fn">Manager</span>(Employee):
+    <span class="kw">def</span> <span class="fn">__init__</span>(self, name, department, salary, team_size):
+        <span class="fn">super</span>().__init__(name, department, salary)
+        self.team_size = team_size</pre></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 13-15 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 13-15</span>
+        <div class="day-info">
+          <div class="day-title">Python — Sessions 5-7: Pandas & Advanced</div>
+          <div class="day-date">July 9, 10, 13 (Thu, Fri, Mon)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📅</span> Day 13 (Jul 9): Modules + Pandas Introduction</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d13-1"><span class="checklist-text">Import, pip install, virtual environments</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d13-2"><span class="checklist-text">datetime, os, pathlib modules</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d13-3"><span class="checklist-text">Install Pandas: <code class="inline-code">pip install pandas</code></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d13-4"><span class="checklist-text">Pandas DataFrame basics: create, view, select, filter</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📅</span> Day 14 (Jul 10): Pandas Deep Dive</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d14-1"><span class="checklist-text">GroupBy, merge/join, handling missing data</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d14-2"><span class="checklist-text">Reading CSV/JSON/Parquet with Pandas</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d14-3"><span class="checklist-text">Apply functions, lambda with Pandas</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d14-4"><span class="checklist-text">Data cleaning patterns</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📅</span> Day 15 (Jul 13): Advanced Python + Review</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d15-1"><span class="checklist-text">List/dict comprehensions (advanced)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d15-2"><span class="checklist-text">Generators and iterators</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d15-3"><span class="checklist-text">Regular expressions (re module) for data cleaning</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d15-4"><span class="checklist-text">Complete Python review and cheat sheet</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d15-5"><span class="checklist-text"><strong>Mini data pipeline project</strong>: Read CSV → Clean data → Transform → Write to new CSV</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ==========================================
+       WEEK 4: BIG DATA + AI/ML (Days 16-18)
+       ========================================== -->
+  <section class="content-section" id="week4-bigdata" data-week="week4-bigdata">
+    <div class="section-header fade-in">
+      <div class="section-icon bigdata">🟥</div>
+      <div>
+        <h2 class="section-title">Week 4: Big Data + AI/ML</h2>
+        <p class="section-subtitle">July 14 – July 16 · Days 16-18</p>
+      </div>
+    </div>
+    <div class="week-progress fade-in">
+      <div class="progress-header">
+        <span class="progress-title">Big Data + AI/ML Progress</span>
+        <span class="progress-count" id="week-week4-bigdata-count">0/0</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="week-week4-bigdata-fill" style="width:0%"></div></div>
+    </div>
+
+    <!-- DAY 16 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 16</span>
+        <div class="day-info">
+          <div class="day-title">Big Data — Session 1 of 2</div>
+          <div class="day-date">July 14 (Tue)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">☀️</span> Before Training</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-1"><span class="checklist-text">Pre-read: What is Big Data, Hadoop, Spark concepts</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📊</span> Big Data Fundamentals (4 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-2"><span class="checklist-text"><strong>What is Big Data</strong>: 3 Vs (Volume, Velocity, Variety) + 2 more (Value, Veracity)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-3"><span class="checklist-text">Why regular databases can't handle big data</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-4"><span class="checklist-text"><strong>Distributed computing</strong>: splitting work across many machines</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-5"><span class="checklist-text"><strong>Hadoop ecosystem</strong>: HDFS, MapReduce, YARN, Hive</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-6"><span class="checklist-text"><strong>Apache Spark</strong>: why it replaced MapReduce (100x faster, in-memory)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-7"><span class="checklist-text"><strong>Spark architecture</strong>: Driver, Executors, Cluster Manager</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-8"><span class="checklist-text"><strong>Batch vs Stream vs Micro-batch</strong> processing</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-9"><span class="checklist-text"><strong>Data Lake vs Data Warehouse vs Data Lakehouse</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-10"><span class="checklist-text"><strong>ETL vs ELT</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d16-11"><span class="checklist-text"><strong>Data formats</strong>: CSV, JSON, Parquet (columnar, compressed, FAST)</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 17 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 17</span>
+        <div class="day-info">
+          <div class="day-title">Big Data — Session 2: PySpark</div>
+          <div class="day-date">July 15 (Wed)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔥</span> PySpark Introduction (4 hours)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d17-1"><span class="checklist-text">Install PySpark: <code class="inline-code">pip install pyspark</code></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d17-2"><span class="checklist-text"><strong>First PySpark program</strong>: SparkSession, createDataFrame, show, printSchema</span></div>
+            <div class="code-block"><div class="code-block-header"><span class="code-lang">Python</span><button class="code-copy">Copy</button></div><pre><span class="kw">from</span> pyspark.sql <span class="kw">import</span> SparkSession
+
+spark = SparkSession.builder.appName(<span class="st">"MyFirstApp"</span>).master(<span class="st">"local[*]"</span>).getOrCreate()
+
+<span class="cm"># Create DataFrame</span>
+data = [(<span class="st">"Rahul"</span>, <span class="nb">25</span>, <span class="st">"Engineering"</span>), (<span class="st">"Priya"</span>, <span class="nb">23</span>, <span class="st">"Marketing"</span>)]
+df = spark.createDataFrame(data, [<span class="st">"name"</span>, <span class="st">"age"</span>, <span class="st">"department"</span>])
+df.show()
+df.printSchema()</pre></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d17-3"><span class="checklist-text"><strong>PySpark DataFrame operations</strong>: select, filter, groupBy, join</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d17-4"><span class="checklist-text"><strong>Spark SQL</strong>: createOrReplaceTempView() + spark.sql()</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d17-5"><span class="checklist-text"><strong>Reading/writing files</strong> with PySpark</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- DAY 18 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Day 18</span>
+        <div class="day-info">
+          <div class="day-title">AI, ML, DL, GenAI, RL, Agentic AI</div>
+          <div class="day-date">July 16 (Thu)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🤖</span> AI/ML Concepts (3 hours — awareness level)</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="d18-1"><span class="checklist-text"><strong>AI vs ML vs DL</strong> — differences with examples</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d18-2"><span class="checklist-text"><strong>Types of ML</strong>: Supervised, Unsupervised, Reinforcement Learning</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d18-3"><span class="checklist-text"><strong>Common algorithms</strong>: Linear Regression, Decision Trees, Random Forest</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d18-4"><span class="checklist-text"><strong>Neural Networks basics</strong></span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d18-5"><span class="checklist-text"><strong>Deep Learning</strong>: CNNs, RNNs, Transformers</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d18-6"><span class="checklist-text"><strong>GenAI</strong>: What is generative AI, LLMs (GPT, Gemini, Claude)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d18-7"><span class="checklist-text"><strong>Agentic AI</strong>: AI agents that can take actions</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="d18-8"><span class="checklist-text"><strong>How AI/ML relates to data engineering</strong>: Data engineers BUILD the pipelines that FEED ML models. Your role: prepare the data, not build the models.</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ==========================================
+       EXAM PREP (July 17-30)
+       ========================================== -->
+  <section class="content-section" id="exam-prep" data-week="exam-prep">
+    <div class="section-header fade-in">
+      <div class="section-icon exam">🟪</div>
+      <div>
+        <h2 class="section-title">Exam Preparation</h2>
+        <p class="section-subtitle">July 17 – July 30 · 14 days before exam</p>
+      </div>
+    </div>
+    <div class="week-progress fade-in">
+      <div class="progress-header">
+        <span class="progress-title">Exam Prep Progress</span>
+        <span class="progress-count" id="week-exam-prep-count">0/0</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="week-exam-prep-fill" style="width:0%"></div></div>
+    </div>
+
+    <div class="alert-block caution fade-in">
+      <div class="alert-label">⚠️ Caution</div>
+      These 14 days are YOUR exam preparation time. Follow this plan strictly!
+    </div>
+
+    <!-- Phase 1 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Phase 1</span>
+        <div class="day-info">
+          <div class="day-title">Deep Revision</div>
+          <div class="day-date">July 17-22 (6 days)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🟦</span> July 17 (Fri) — Azure Cloud Revision</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-1"><span class="checklist-text">Revise all Azure notes</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-2"><span class="checklist-text">Re-draw architecture diagrams</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-3"><span class="checklist-text">Take an AZ-900 practice quiz online</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-4"><span class="checklist-text">Focus areas: Cloud concepts, Core services, Security, Pricing</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🟩</span> July 18-19 (Sat-Sun) — SQL Intensive Revision</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-5"><span class="checklist-text">Day 1: Revise SELECT, WHERE, JOINs, GROUP BY — Solve 30 SQL problems, write all JOIN types from memory</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-6"><span class="checklist-text">Day 2: Revise Window Functions, CTEs, Subqueries — Solve 20 window function problems, practice CASE WHEN</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🟨</span> July 20 (Mon) — Python Revision</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-7"><span class="checklist-text">Variables, types, strings, lists, dictionaries — quick drill</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-8"><span class="checklist-text">Functions, decorators, lambda, map/filter</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-9"><span class="checklist-text">File handling: CSV, JSON read/write</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-10"><span class="checklist-text">OOP: class, inheritance, __init__, methods</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-11"><span class="checklist-text">Solve 30 Python problems (HackerRank Easy-Medium)</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🐼</span> July 21 (Tue) — Pandas + Data Engineering Revision</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-12"><span class="checklist-text">Pandas: DataFrame, groupby, merge, missing data</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-13"><span class="checklist-text">Data concepts: ETL/ELT, Star schema, data quality</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-14"><span class="checklist-text">Data formats: CSV vs JSON vs Parquet</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-15"><span class="checklist-text">Build a mini project: Read CSV → Clean → Transform → Output</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">⚡</span> July 22 (Wed) — Big Data + PySpark Revision</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-16"><span class="checklist-text">Spark architecture: Driver, Executors, DAG</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-17"><span class="checklist-text">PySpark DataFrame operations from memory</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-18"><span class="checklist-text">Spark SQL practice</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-19"><span class="checklist-text">AI/ML concept revision (brief)</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Phase 2 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Phase 2</span>
+        <div class="day-info">
+          <div class="day-title">Mock Tests & Weak Areas</div>
+          <div class="day-date">July 23-27 (5 days)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📋</span> July 23 (Thu) — Mock Test 1</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-20"><span class="checklist-text">Take a timed mock test covering all topics</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-21"><span class="checklist-text">Identify weak areas — list topics where you scored below 70%</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🔧</span> July 24 (Fri) — Fix Weak Areas</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-22"><span class="checklist-text">Study ONLY the topics you got wrong</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-23"><span class="checklist-text">Re-practice those specific problems</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-24"><span class="checklist-text">Make flashcards for formulas/syntax you keep forgetting</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">💪</span> July 25-26 (Sat-Sun) — Intensive Practice</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-25"><span class="checklist-text">50 SQL problems (all difficulty levels)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-26"><span class="checklist-text">30 Python problems</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-27"><span class="checklist-text">PySpark code writing practice</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-28"><span class="checklist-text">Azure concept quiz</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-29"><span class="checklist-text">Review all cheat sheets</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📋</span> July 27 (Mon) — Mock Test 2</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-30"><span class="checklist-text">Second full-length mock test</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-31"><span class="checklist-text">Compare with Mock Test 1 — check improvement</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-32"><span class="checklist-text">Final list of weak areas</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Phase 3 -->
+    <div class="day-card fade-in">
+      <div class="day-card-header">
+        <span class="day-number">Phase 3</span>
+        <div class="day-info">
+          <div class="day-title">Final Preparation</div>
+          <div class="day-date">July 28-30 (3 days)</div>
+        </div>
+        <span class="day-status upcoming">⬜ Upcoming</span>
+        <span class="day-progress-mini"></span>
+        <span class="day-toggle">▾</span>
+      </div>
+      <div class="day-card-body">
+        <div class="day-card-content">
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">📖</span> July 28 (Tue) — Light Revision</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-33"><span class="checklist-text">Read through ALL cheat sheets</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-34"><span class="checklist-text">Quick SQL query writing (30 mins)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-35"><span class="checklist-text">Quick Python coding (30 mins)</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-36"><span class="checklist-text">Review Azure diagrams</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-37"><span class="checklist-text">Don't learn new topics — only revise</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">😌</span> July 29 (Wed) — Day Before Exam</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-38"><span class="checklist-text">Morning: Light revision of key concepts only</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-39"><span class="checklist-text">Afternoon: Relax, light walk, no heavy studying</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-40"><span class="checklist-text">Read your cheat sheets one final time</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-41"><span class="checklist-text">Sleep early — minimum 7-8 hours of sleep!</span></div>
+          </div>
+
+          <div class="topic-group">
+            <h4 class="topic-group-title"><span class="emoji">🎯</span> July 30 (Thu) — EXAM DAY</h4>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-42"><span class="checklist-text">Wake up early, have a good breakfast</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-43"><span class="checklist-text">Quick 15-min glance at cheat sheets</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-44"><span class="checklist-text">Stay calm, read questions carefully</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-45"><span class="checklist-text">Manage time — don't spend too long on one question</span></div>
+            <div class="checklist-item"><input type="checkbox" data-id="ep-46"><span class="checklist-text"><strong>YOU'VE GOT THIS! 💪</strong></span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ==========================================
+       CHEAT SHEETS
+       ========================================== -->
+  <section class="content-section" id="cheat-sheets">
+    <div class="section-header fade-in">
+      <div class="section-icon cheat">📋</div>
+      <div>
+        <h2 class="section-title">Cheat Sheets to Create</h2>
+        <p class="section-subtitle">One for each module — track your creation progress</p>
+      </div>
+    </div>
+
+    <div class="fade-in">
+      <table class="styled-table">
+        <thead><tr><th>#</th><th>Cheat Sheet</th><th>When to Create</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Azure Cloud Services (1 page)</td><td>By June 29</td></tr>
+          <tr><td>2</td><td>SQL Syntax & Functions (2 pages)</td><td>By July 2</td></tr>
+          <tr><td>3</td><td>Python Basics (2 pages)</td><td>By July 6</td></tr>
+          <tr><td>4</td><td>Python Data Structures (1 page)</td><td>By July 10</td></tr>
+          <tr><td>5</td><td>Python Functions + File I/O (1 page)</td><td>By July 13</td></tr>
+          <tr><td>6</td><td>Big Data + PySpark (1 page)</td><td>By July 15</td></tr>
+          <tr><td>7</td><td>AI/ML Concepts (1 page)</td><td>By July 16</td></tr>
+          <tr><td>8</td><td>Master Cheat Sheet (all combined, 5 pages)</td><td>By July 22</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       GOLDEN RULES
+       ========================================== -->
+  <section class="content-section" id="golden-rules">
+    <div class="section-header fade-in">
+      <div class="section-icon golden">💡</div>
+      <div>
+        <h2 class="section-title">Golden Rules</h2>
+        <p class="section-subtitle">Follow these to maximize your preparation</p>
+      </div>
+    </div>
+
+    <div class="alert-block important fade-in">
+      <div class="alert-label">✅ Important</div>
+      <div>
+        <div class="golden-rule"><span class="rule-num">01</span><span class="rule-text"><strong>Never miss a training session</strong> (10 AM - 12 PM) — take notes in a notebook</span></div>
+        <div class="golden-rule"><span class="rule-num">02</span><span class="rule-text"><strong>Pre-study before each session</strong> — you'll understand 2x better</span></div>
+        <div class="golden-rule"><span class="rule-num">03</span><span class="rule-text"><strong>Practice after each session</strong> — coding is learned by DOING, not watching</span></div>
+        <div class="golden-rule"><span class="rule-num">04</span><span class="rule-text"><strong>Weekends are for revision</strong> — don't waste them</span></div>
+        <div class="golden-rule"><span class="rule-num">05</span><span class="rule-text"><strong>Create cheat sheets</strong> — they save you during revision</span></div>
+        <div class="golden-rule"><span class="rule-num">06</span><span class="rule-text"><strong>Sleep 7-8 hours</strong> — your brain needs rest to learn</span></div>
+        <div class="golden-rule"><span class="rule-num">07</span><span class="rule-text"><strong>Ask doubts</strong> — to your trainer, batch-mates, or even me!</span></div>
+        <div class="golden-rule"><span class="rule-num">08</span><span class="rule-text"><strong>Don't panic</strong> — you have 35 days, that's enough if you're consistent</span></div>
+      </div>
+    </div>
+
+    <div class="alert-block warning fade-in" style="margin-top:20px;">
+      <div class="alert-label">⚠️ Warning — Things that will KILL your preparation</div>
+      <ul style="list-style:none; padding:0; margin:8px 0 0 0;">
+        <li style="padding:6px 0;">❌ Skipping training sessions</li>
+        <li style="padding:6px 0;">❌ Only watching videos without coding yourself</li>
+        <li style="padding:6px 0;">❌ Leaving everything for the last week</li>
+        <li style="padding:6px 0;">❌ Not sleeping enough</li>
+        <li style="padding:6px 0;">❌ Getting stuck on one topic for too long — move on and come back later</li>
+        <li style="padding:6px 0;">❌ Comparing yourself with others who have prior experience</li>
+      </ul>
+    </div>
+
+    <div class="fade-in" style="margin-top:32px; text-align:center;">
+      <p style="font-style:italic; color:var(--text-muted); font-size:0.9rem;">
+        This plan covers EVERY SINGLE DAY from today (June 25) to exam day (July 30).<br>
+        Follow it daily and you WILL be ready. Good luck! 🚀
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">FS Data Engineer — Palantir</div>
+    <p class="footer-text">Built for Accenture FS Data Engineer Training<br>Complete 35-day learning roadmap with interactive progress tracking</p>
+    <div class="footer-exam">🎯 Exam Date: July 30, 2026</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
